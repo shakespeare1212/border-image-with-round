@@ -1,0 +1,25 @@
+.container
+{
+    border: 100px solid black;
+    width: 70%;
+    height: 70%;
+    padding: 5px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border-image: url(border.png) 33% round;
+    text-align: center;
+    
+
+}
+
+.fullCenterText
+{
+    font-size: 3rem;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
